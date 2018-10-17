@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Color Game</title>
+  </head>
+  <body>
+
+    <header>
+
+      <div class="top-text">
+        <!--Title-->
+        <h1 class="title">Guess The Color!</h1>
+        <!--RGB Value-->
+        <div class="color-contain">
+          <h1>Your color is: <span id="color"></span></h1>
+        </div>
+      </div>
+
+
+      <!--Nav-->
+      <nav>
+        <!--Reset-->
+        <button id="reset">Reset</button>
+        <!--Reaction text-->
+        <p class="reaction">
+          <!--You got it!-->
+          <!--OR-->
+          <!--Try Again-->
+        </p>
+        <!--Difficulty-->
+        <div class="difficulty-container">
+          <button id="easy" class="difficulty">Easy</button>
+          <button id= "hard" class="difficulty active">Hard</button>
+        </div>
+      </nav>
+
+    </header>
+
+    <main>
+
+      <div class="square-container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+
+    </main>
+
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+</html>

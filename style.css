@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: steelblue;
+  transition: .3s;
+}
+
+.top-text h1 {
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  color: white;
+}
+
+.title,
+.color-contain h1 {
+  font-size: 3rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+
+button {
+  background: white;
+  color: steelblue;
+  border: none;
+  font-size: 1.5rem;
+  padding: .75rem;
+  height: 100%;
+  font-weight: bold;
+  transition: .3s;
+  cursor: pointer;
+}
+
+button:hover,
+.active {
+  background: steelblue;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+nav p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: steelblue;
+}
+
+.square-container {
+  padding: 3rem;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  background-color: red;
+  float: left;
+  border-radius: 20px;
+  transition: .3s;
+}
